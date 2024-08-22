@@ -83,6 +83,25 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libteeclientjni",
+	owner: "huawei",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libteeclientjni.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libteeclientjni.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libtuidaemon",
 	owner: "huawei",
 	strip: {
@@ -243,17 +262,17 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.keymaster@3.0-impl.hisi",
+	name: "android.hardware.keymaster@3.0-impl-hisi",
 	owner: "huawei",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.hisi.so"],
+			srcs: ["proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-hisi.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.hisi.so"],
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so"],
 		},
 	},
 	compile_multilib: "both",
