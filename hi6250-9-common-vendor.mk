@@ -104,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/gnss/rmd/g/aindex.bin:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/g/aindex.bin \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/gnss/rmd/t/a_1:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/t/a_1 \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/gnss/rmd/t/aindex.bin:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/t/aindex.bin \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.0-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.fm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.fm@1.0-service.rc \
@@ -239,7 +240,6 @@ PRODUCT_PACKAGES += \
     libhivwservice \
     libhuaweiaudioeffectutil \
     libhuaweicust \
-    libiawareperf_client \
     libimedia_filters \
     libispenhnc \
     libjtag_wdt_ctrl \
@@ -263,7 +263,7 @@ PRODUCT_PACKAGES += \
     libpf_customize_hisi \
     libpf_oneimage_hisi \
     libpf_rotate_hisi \
-    libril-hisi \
+    libril \
     libscenedetection \
     libstagefrighthw \
     libstorekeybox \
@@ -273,7 +273,6 @@ PRODUCT_PACKAGES += \
     libhuaweiprocessing \
     liboffloadvisualizer \
     vendor.huawei.hardware.ai@1.0 \
-    vendor.huawei.hardware.biometrics.fingerprint@2.1 \
     vendor.huawei.hardware.biometrics.hwfacerecognize@1.0 \
     vendor.huawei.hardware.biometrics.hwfacerecognize@1.1 \
     vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0 \
@@ -300,8 +299,6 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.hisupl@1.0 \
     vendor.huawei.hardware.hwfactoryinterface@1.0 \
     vendor.huawei.hardware.hwfactoryinterface@1.1 \
-    vendor.huawei.hardware.hwvibrator@1.0 \
-    vendor.huawei.hardware.iawareperf@1.0 \
     vendor.huawei.hardware.libteec@2.0 \
     vendor.huawei.hardware.perfgenius@2.0 \
     vendor.huawei.hardware.radio.chr@1.0 \
@@ -339,6 +336,8 @@ PRODUCT_PACKAGES += \
     libsmartpakit \
     libtas2560 \
     vendor.huawei.hardware.fm@1.0-impl \
+    vendor.huawei.hardware.hwvibrator@1.0 \
+    vendor.huawei.hardware.iawareperf@1.0 \
     vendor.huawei.hardware.rtt@1.0 \
     vendor.huawei.hardware.graphics.mediacomm@2.0-service \
     tee_auth_daemon \
