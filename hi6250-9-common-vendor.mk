@@ -240,6 +240,7 @@ PRODUCT_PACKAGES += \
     libhivwservice \
     libhuaweiaudioeffectutil \
     libhuaweicust \
+    libiawareperf_client \
     libimedia_filters \
     libispenhnc \
     libjtag_wdt_ctrl \
@@ -299,6 +300,8 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.hisupl@1.0 \
     vendor.huawei.hardware.hwfactoryinterface@1.0 \
     vendor.huawei.hardware.hwfactoryinterface@1.1 \
+    vendor.huawei.hardware.hwvibrator@1.0 \
+    vendor.huawei.hardware.iawareperf@1.0 \
     vendor.huawei.hardware.libteec@2.0 \
     vendor.huawei.hardware.perfgenius@2.0 \
     vendor.huawei.hardware.radio.chr@1.0 \
@@ -336,8 +339,6 @@ PRODUCT_PACKAGES += \
     libsmartpakit \
     libtas2560 \
     vendor.huawei.hardware.fm@1.0-impl \
-    vendor.huawei.hardware.hwvibrator@1.0 \
-    vendor.huawei.hardware.iawareperf@1.0 \
     vendor.huawei.hardware.rtt@1.0 \
     vendor.huawei.hardware.graphics.mediacomm@2.0-service \
     tee_auth_daemon \
