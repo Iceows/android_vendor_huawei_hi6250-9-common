@@ -3888,6 +3888,18 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+	name: "hostapd_hisi",
+	owner: "huawei",
+	srcs: ["proprietary/vendor/bin/hostapd_hisi"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
 	name: "android.hardware.secure_element@1.0-service.hisi",
 	owner: "huawei",
 	srcs: ["proprietary/vendor/bin/hw/android.hardware.secure_element@1.0-service.hisi"],
@@ -4225,6 +4237,30 @@ cc_prebuilt_binary {
 	name: "tlogcat",
 	owner: "huawei",
 	srcs: ["proprietary/vendor/bin/tlogcat"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wpa_cli_hisi",
+	owner: "huawei",
+	srcs: ["proprietary/vendor/bin/wpa_cli_hisi"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wpa_supplicant_hisi",
+	owner: "huawei",
+	srcs: ["proprietary/vendor/bin/wpa_supplicant_hisi"],
 	check_elf_files: false,
 	strip: {
 		none: true,

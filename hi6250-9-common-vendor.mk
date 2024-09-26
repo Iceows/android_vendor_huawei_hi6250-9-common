@@ -396,6 +396,7 @@ PRODUCT_PACKAGES += \
     goodix_5296_ta_handel.sec \
     goodix_8206_ta.sec \
     gpsdaemon \
+    hostapd_hisi \
     android.hardware.secure_element@1.0-service.hisi \
     rild \
     vendor.huawei.hardware.biometrics.fingerprint@2.1-service \
@@ -423,4 +424,6 @@ PRODUCT_PACKAGES += \
     syna_155A_ta.sec \
     syna_155A_ta_lldp.sec \
     teecd \
-    tlogcat
+    tlogcat \
+    wpa_cli_hisi \
+    wpa_supplicant_hisi
