@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.libteec@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.libteec@2.0-service \
     vendor/huawei/hi6250-9-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.perfgenius@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.perfgenius@2.0-service \
     vendor/huawei/hi6250-9-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.sensors@1.0-service \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.wifi@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.wifi@1.1-service \
     vendor/huawei/hi6250-9-common/proprietary/vendor/bin/oam_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/oam_hisi \
     vendor/huawei/hi6250-9-common/proprietary/vendor/bin/octty:$(TARGET_COPY_OUT_VENDOR)/bin/octty \
     vendor/huawei/hi6250-9-common/proprietary/vendor/bin/oeminfo_nvm_server:$(TARGET_COPY_OUT_VENDOR)/bin/oeminfo_nvm_server \
@@ -201,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.libteec@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.libteec@2.0-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.perfgenius@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.perfgenius@2.0-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/VIA/basic_name:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/VIA/basic_name \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/balong/FieldTest.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/balong/FieldTest.cfg \
@@ -411,6 +413,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.libteec@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.libteec@2.0-impl.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hwcam/hwcam.ddt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hwcam/hwcam.ddt.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hwcam/hwcam.services.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hwcam/hwcam.services.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libBestShot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBestShot.so \
@@ -460,6 +463,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libhivwservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhivwservice.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhuaweiaudioeffectutil.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libhuaweicust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhuaweicust.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libhwwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwwifi-hal.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libiawareperf_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiawareperf_client.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libimedia_filters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimedia_filters.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libispenhnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispenhnc.so \
@@ -494,6 +498,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libteec_eid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec_eid.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libteec_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec_vendor.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libwifi_ext.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi_ext.default.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libwifi_wapi_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi_wapi_hisi.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhuaweiprocessing.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so \
